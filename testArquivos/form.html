@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+	<form action="escreveArquivo.php" method="POST">
+		<label for="linha1">Primeira frase:  </label>
+		<input type="text" id="linha1" name="linha1" required>
+        <br>
+        <label for="linha2">Segunda frase: </label>
+		<input type="text" id="linha2" name="linha2" required>
+        <br>
+        <label for="linha3">Terceira frase: </label>
+		<input type="text" id="linha3" name="linha3" required>
+        <br>
+        <input type="submit" value="Enter">
+    </form>
+    <form action="apresentaArquivo.php" method="POST">
+        Leitura de arquivo: <br>
+        <input type="submit" value="Enter">
+    </form>
+</body>
+</html>
